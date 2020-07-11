@@ -1,0 +1,68 @@
+h1. Spring Boot中使用Swagger2构建RESTful API
+
+
+h2. Overview {anchor:overview}
+Swagger官方仓库https://github.com/swagger-api/swagger-ui
+
+
+h3. Version information
+_Version_ : 1.0.0
+
+
+h3. License information
+_Terms of service_ : https://github.com/forgot2015/SpingBootAndSwaggerDemo
+
+
+h3. URI scheme
+_Host_ : localhost:8080\\ 
+_BasePath_ : /
+
+
+h3. Tags
+
+* Swagger样例 : User Controller
+
+
+
+
+h2. Resources {anchor:paths}
+
+h3. Swagger样例 {anchor:0e94b5455a85670335bbf448a32b6442}
+User Controller
+
+
+h4. 根据Id查询用户信息 {anchor:hellousingget}
+{noformat}
+GET /api/hello
+{noformat}
+
+
+h5. Description
+根据Id查询用户信息,这里是详细说明
+
+
+h5. Parameters
+
+||Type||Name||Description||Schema||
+|*Query*|*id*\\ \\ _required_||用户唯一id||integer (int64)|
+
+
+h5. Responses
+
+||HTTP Code||Description||Schema||
+|*200*||OK||string|
+|*401*||Unauthorized||No Content|
+|*403*||Forbidden||No Content|
+|*404*||Not Found||No Content|
+
+
+h5. Produces
+
+* {noformat}*/*{noformat}
+
+
+
+
+
+
+
